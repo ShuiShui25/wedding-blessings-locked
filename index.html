@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#9e292e">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; script-src 'self' blob:; style-src 'self' blob: 'unsafe-inline'; img-src 'self' blob: data:; connect-src 'self' blob:; frame-src 'self' blob:; object-src 'none'; base-uri 'none'">
+  <title>山海同庆 · 亲友专属</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='52' fill='%239e292e'%3E囍%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="vault.css">
+  <script defer src="vault.js"></script>
+</head>
+<body>
+  <main id="gate">
+    <div class="topline"><span>山海同庆</span><span>亲友专属 · 以爱相聚</span></div>
+    <section class="invitation" aria-labelledby="title">
+      <div class="seal" aria-hidden="true">囍</div>
+      <p class="eyebrow">A PRIVATE CELEBRATION</p>
+      <h1 id="title">以爱为约，<br>共赴良缘。</h1>
+      <p class="welcome">请输入亲友访问密码，<br>开启这份来自四海的祝福。</p>
+      <form id="unlock-form">
+        <label for="password">访问密码</label>
+        <div class="password-row"><input id="password" type="password" autocomplete="off" autocapitalize="none" spellcheck="false" required placeholder="由邀请人提供" aria-describedby="status"><button id="toggle-password" type="button" aria-label="显示密码">显示</button></div>
+        <button id="unlock-button" type="submit">开启祝福 <span aria-hidden="true">→</span></button>
+        <p id="status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="privacy-note">请将这份邀请与访问密码，仅分享给受邀亲友。</p>
+    </section>
+    <footer>山海相隔，祝福同至。</footer>
+  </main>
+  <noscript>请启用浏览器 JavaScript，以解锁婚礼祝福地图。</noscript>
+</body>
+</html>
