@@ -3,7 +3,7 @@
   "cipher": "AES-256-GCM",
   "kdf": "PBKDF2-SHA256",
   "iterations": 600000,
-  "salt": "7Wt5HReIveNSHo3TJNSSPA==",
-  "iv": "VX+6gKm1kng/wNO2",
+  "salt": "uarwvuhRCPCcO7epatnxKA==",
+  "iv": "boEUkNi2iRosLgxK",
   "bytes": 21363740
 }
